@@ -1,0 +1,8 @@
+
+<div class="twdb">
+    <h3>Two Way Data Binding!</h3>
+    <p>You have searched: {{inputText}}</p>
+    <a>Search</a>
+    <!-- <input type="text" [value]="inputText" (input)="inputTextHandler($event)"/> -->
+    <input [(ngModel)]="inputText"/>
+</div>
