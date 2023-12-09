@@ -1,0 +1,10 @@
+.parent-comp{
+    background-color: blueviolet;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+}
+
+button{
+    margin: 2px;
+}

@@ -11,6 +11,8 @@ import { ExmTwdbComponent } from './learning/exm-twdb/exm-twdb.component';
 import { ExmAttributeDirectiveComponent } from './learning/exm-attribute-directive/exm-attribute-directive.component';
 import { ChangeToPurpleDirective } from './learning/change-to-purple.directive';
 import { ExmStructuralDirectiveComponent } from './learning/exm-structural-directive/exm-structural-directive.component';
+import { ExmParentComponent } from './learning/exm-parent/exm-parent.component';
+import { ExmChildComponent } from './learning/exm-parent/exm-child/exm-child.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { ExmStructuralDirectiveComponent } from './learning/exm-structural-direc
     ExmAttributeDirectiveComponent,
     ChangeToPurpleDirective,
     ExmStructuralDirectiveComponent,
+    ExmParentComponent,
+    ExmChildComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<div class="parent-comp">
+    <p>Parent Component</p>
+    <p>Generated Value in Parent Component: {{inputNumber}}</p>
+    <button (click)="calculateNumberOnClick()">Send Data To Child</button>
+    <br><br>
+    
+    <app-exm-child [ipData]="inputNumber"></app-exm-child>
+</div>
