@@ -1,1 +1,12 @@
-<p>exm-event-binding works!</p>
+<div class="event-binding">
+    <h2 class="heading">Event Binding</h2>
+    <h3>{{count}}</h3>
+    <p>{{inputText}}</p>
+    <div class="buttons">
+        <button class="green" (click)="incrementTenHandler()">+10</button>
+        <button class="red" (click)="decrementTenHandler()">-10</button>
+        <button class="yellow" (click)="incrementFiveHandler()">+5</button>
+        <button class="blue" (click)="decrementFiveHandler()">-5</button>
+    </div> 
+    <input (input)="inputEventHandler($event)"/> 
+</div>

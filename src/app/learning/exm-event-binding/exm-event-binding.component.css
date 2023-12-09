@@ -1,0 +1,30 @@
+.event-binding{
+    background-color: aqua;
+    padding:10px;
+    width: 50%;
+}
+button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: calc();
+}
+
+.green{
+    background-color:green;
+}
+
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: crimson;
+}
