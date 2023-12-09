@@ -10,6 +10,7 @@ import { ExmEventBindingComponent } from './learning/exm-event-binding/exm-event
 import { ExmTwdbComponent } from './learning/exm-twdb/exm-twdb.component';
 import { ExmAttributeDirectiveComponent } from './learning/exm-attribute-directive/exm-attribute-directive.component';
 import { ChangeToPurpleDirective } from './learning/change-to-purple.directive';
+import { ExmStructuralDirectiveComponent } from './learning/exm-structural-directive/exm-structural-directive.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ChangeToPurpleDirective } from './learning/change-to-purple.directive';
     ExmTwdbComponent,
     ExmAttributeDirectiveComponent,
     ChangeToPurpleDirective,
+    ExmStructuralDirectiveComponent,
   ],
   imports: [
     BrowserModule,

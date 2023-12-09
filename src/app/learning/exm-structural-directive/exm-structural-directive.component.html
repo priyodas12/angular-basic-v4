@@ -1,0 +1,10 @@
+
+<div class="structural-directive">
+    <div class="display-card-positive" *ngIf="status">
+        <p>Positive</p>    
+    </div>
+    <div class="display-card-negative" *ngIf="!status">
+        <p>Negative</p>    
+    </div>
+    <button (click)="onClickBtn()">Check Status</button>
+</div>
