@@ -1,5 +1,5 @@
-
-<div class="structural-directive">
+<!-- 
+<div class="structural-directive-ngIf">
     <div class="display-card-positive" *ngIf="status">
         <p>Positive</p>    
     </div>
@@ -7,4 +7,14 @@
         <p>Negative</p>    
     </div>
     <button (click)="onClickBtn()">Check Status</button>
+</div> -->
+
+<div class="structural-directive-ngFor">
+    <div *ngFor="let item of productList">
+        <p>{{item}}</p>
+    </div>
+
+    <div *ngFor="let key of mobileList">
+       <a>{{key.name|uppercase}} {{key.price}}</a>
+    </div>
 </div>
