@@ -4,11 +4,16 @@
     background-color: rgb(236, 247, 225);
     padding: 20px;
 }
+h4{
+    color:white;
+}
 
 .test1{
     background-color: cadetblue;
+    border-radius: 3px;;
 }
 
 .test2{
     background-color: rgb(160, 95, 140);
+    border-radius: 3px;;
 }
