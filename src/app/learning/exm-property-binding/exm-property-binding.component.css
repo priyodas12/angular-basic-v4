@@ -1,0 +1,14 @@
+.prop-bind{
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.img-wallpaper{
+    padding: 10px 15px 20px 10px;
+}
+
+.desc-wallpaper{
+    padding: 3px;
+    color:blueviolet;
+    font-size: medium;
+}

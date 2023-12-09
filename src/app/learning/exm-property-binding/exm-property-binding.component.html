@@ -1,0 +1,12 @@
+<div class="prop-bind">
+    <h2>Property Binding</h2>
+    <div class="img-wallpaper">
+        <img [src]="imgURL" alt="wallpaper">
+        <a class="browse" [href]="visitGoogle" [innerText]="moreWallpaper"></a>
+        <br>
+        <button type="button" [disabled]="buttonStatus">Toggle</button>
+    </div>
+    <div class="desc-wallpaper">
+        <p class="desc" [innerHTML]="desc"></p>
+    </div>
+</div>
