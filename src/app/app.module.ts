@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { ExmPropertyBindingComponent } from './learning/exm-property-binding/exm-property-binding.component';
 import { ExmEventBindingComponent } from './learning/exm-event-binding/exm-event-binding.component';
 import { ExmTwdbComponent } from './learning/exm-twdb/exm-twdb.component';
+import { ExmAttributeDirectiveComponent } from './learning/exm-attribute-directive/exm-attribute-directive.component';
+import { ChangeToPurpleDirective } from './learning/change-to-purple.directive';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { ExmTwdbComponent } from './learning/exm-twdb/exm-twdb.component';
     ExmPropertyBindingComponent,
     ExmEventBindingComponent,
     ExmTwdbComponent,
+    ExmAttributeDirectiveComponent,
+    ChangeToPurpleDirective,
   ],
   imports: [
     BrowserModule,

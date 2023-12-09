@@ -1,0 +1,7 @@
+<div class="attribute-directive">
+    <h3 appChangeToPurple>User Defined Attribute</h3>
+    <h4 [ngStyle]="{'color':greenText}">Green Icon</h4>
+    <h4 [ngStyle]="getRandomVal()?{'background-color': 'red'} : {'background-color': 'blue'}">Random Color</h4>
+    <h4 [ngClass]="'test1'">Test Classes1</h4>
+    <h4 [ngClass]="computeClass()">Test Classes2</h4>
+</div>
