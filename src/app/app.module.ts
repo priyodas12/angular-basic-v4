@@ -13,6 +13,9 @@ import { ChangeToPurpleDirective } from './learning/change-to-purple.directive';
 import { ExmStructuralDirectiveComponent } from './learning/exm-structural-directive/exm-structural-directive.component';
 import { ExmParentComponent } from './learning/exm-parent/exm-parent.component';
 import { ExmChildComponent } from './learning/exm-parent/exm-child/exm-child.component';
+import { ExmSibingsCommunicationComponent } from './learning/exm-sibings-communication/exm-sibings-communication.component';
+import { ExmSiblingAComponent } from './learning/exm-sibings-communication/exm-sibling-a/exm-sibling-a.component';
+import { ExmSiblingBComponent } from './learning/exm-sibings-communication/exm-sibling-b/exm-sibling-b.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { ExmChildComponent } from './learning/exm-parent/exm-child/exm-child.com
     ExmStructuralDirectiveComponent,
     ExmParentComponent,
     ExmChildComponent,
+    ExmSibingsCommunicationComponent,
+    ExmSiblingAComponent,
+    ExmSiblingBComponent,
   ],
   imports: [
     BrowserModule,

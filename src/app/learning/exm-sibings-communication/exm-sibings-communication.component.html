@@ -1,0 +1,5 @@
+<div class="parent-comp">
+    <p>Searched in Component A:{{inputFromA}}</p>
+    <app-exm-sibling-a (inputToParent)="getInputFromA($event)"></app-exm-sibling-a>
+    <app-exm-sibling-b [receievedData]="inputFromA"></app-exm-sibling-b>
+</div>

@@ -1,0 +1,10 @@
+.parent-comp{
+    width: 400px;
+    padding: 10px;
+    background-color: brown;
+}
+
+p{
+    color:wheat;
+    font-size: large;
+}

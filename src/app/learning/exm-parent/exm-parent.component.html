@@ -4,7 +4,7 @@
     <button (click)="calculateNumberOnClick()">Send Data To Child</button>
     <br><br>
     
-    <app-exm-child [ipData]="inputNumber" (opData)="getChildData(event)"></app-exm-child>
+    <app-exm-child [ipData]="inputNumber" (opData)="getChildData($event)"></app-exm-child>
 
     <p>Value From Child: {{valueFromChild}}</p>
 </div>
