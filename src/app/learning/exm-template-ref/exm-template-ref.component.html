@@ -1,0 +1,16 @@
+<div class="tem-ref">
+    <label>Enter Phone Number:</label>
+    <input type="text" class="ip-for-btn" #phoneNumber>
+    <button type="button" (click)="onClickSubmit(phoneNumber.value)">submit</button>
+    
+
+     <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+      <input name="first" ngModel required #first="ngModel" placeholder="first name">
+      <input name="last" ngModel #last="ngModel" placeholder="last name">
+      <button>Submit</button>
+    </form>
+    <p>{{first.value}}</p>
+    <p>{{first.valid}}</p>
+    <p>You Have Submitted Phone Number: {{contact}}</p>
+    <p>Form value: {{ f.value | json }}</p>
+</div>

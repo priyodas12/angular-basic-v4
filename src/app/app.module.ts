@@ -16,6 +16,7 @@ import { ExmChildComponent } from './learning/exm-parent/exm-child/exm-child.com
 import { ExmSibingsCommunicationComponent } from './learning/exm-sibings-communication/exm-sibings-communication.component';
 import { ExmSiblingAComponent } from './learning/exm-sibings-communication/exm-sibling-a/exm-sibling-a.component';
 import { ExmSiblingBComponent } from './learning/exm-sibings-communication/exm-sibling-b/exm-sibling-b.component';
+import { ExmTemplateRefComponent } from './learning/exm-template-ref/exm-template-ref.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ExmSiblingBComponent } from './learning/exm-sibings-communication/exm-s
     ExmSibingsCommunicationComponent,
     ExmSiblingAComponent,
     ExmSiblingBComponent,
+    ExmTemplateRefComponent,
   ],
   imports: [
     BrowserModule,
